@@ -7,4 +7,6 @@
    1. python manage.py start app
    2. settings.py > INSTALLED_APPS ' playground', 추가
 3. playground/views
-   1. say_hello
+   1. say_hello()
+4. urls
+   1. playground/hello/ -> say_hello()
