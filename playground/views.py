@@ -9,7 +9,7 @@ def say_hello(request):
 
 
 def say_hello_html(request):
-    return render(request, 'playground/hello.html')
+    return render(request, 'playground/hello.html', {'name': '양이고'})
 
 def say_bye(request):
     return render(request, 'playground/bye.html')
